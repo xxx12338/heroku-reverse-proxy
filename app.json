@@ -8,7 +8,7 @@
 	"repository": "https://github.com/octoberswimmer/heroku-reverse-proxy",
 	"buildpacks": [
 		{
-			"url": "https://github.com/heroku/heroku-buildpack-nginx.git"
+			"url": "http://github.com/octoberswimmer/heroku-buildpack-nginx.git"
 		}
 	],
 	"env": {
@@ -16,5 +16,5 @@
 			"description": "URL of upstream server to which all requests should be proxied"
 		}
 	},
-	"stack": "heroku-20"
+	"stack": "heroku-18"
 }
